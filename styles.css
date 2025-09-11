@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Estilos generales del cuerpo */
+body {
+
+    color: #fff;
+}
+.container {
+    max-width: 1000px;
+    min-width: 350px;
+    margin: 0 auto;
+    background-color: brown;
+
+}
+
+.box {
+display: inline-block;
+width: 498px;
+height: auto;
+background-color: rgb(101, 195, 230);
+padding: 20px;
+font-size: 2em;
+}
+
+@media  (max-width: 1000px) {
+    .box {
+        width: 398px;
+        font-size: 1.5em;
+    }
+}
